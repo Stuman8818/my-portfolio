@@ -1,5 +1,5 @@
-import Header from "../app/components/header";
-import Content from "./content";
+import Header from "./components/portfolio-header";
+import Content from "./components/portfolio-content";
 
 
 export default function Home() {
