@@ -58,7 +58,7 @@ const projects: Project[] = [
   },
 ];
 
-const Content: FC = () => {
+const PortFolioContent: FC = () => {
   return (
     <main
       id="content"
@@ -171,4 +171,4 @@ const Content: FC = () => {
   );
 };
 
-export default Content;
+export default PortFolioContent;

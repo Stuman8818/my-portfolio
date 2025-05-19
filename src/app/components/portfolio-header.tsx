@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
-const Header: FC = () => {
+const PortFolioHeader: FC = () => {
   return (
     <header className="flex justify-between bg-slate-900 text-slate-50 p-8 lg:py-24 lg:sticky lg:top-0 lg:h-screen lg:w-[48%] lg:flex-col lg:justify-between">
       <div className="max-w-md">
@@ -113,4 +113,4 @@ const Header: FC = () => {
   );
 };
 
-export default Header;
+export default PortFolioHeader;
