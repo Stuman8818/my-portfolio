@@ -17,7 +17,7 @@ const PortFolioHeader: FC = () => {
             Front-End Engineer
           </h2>
           <p className="mt-4 text-gray-400">
-            I build pixel-perfect, responsive web applications.
+            Software Engineer with a front-end focus and back-end experience. I specialize in building clean, responsive UIs using modern javascript libraries like React, Vue, and Angular.
           </p>
         </div>
 
@@ -62,7 +62,7 @@ const PortFolioHeader: FC = () => {
             Full Résumé
           </a>
           <a
-            href="https://drive.google.com/uc?export=download&id=1ZrSHKzl1dpGv9xpu7TrT7-3nrKjYShuQ"
+            href="https://docs.google.com/document/d/1HMR2gQ4dF4H6WZr2eI_MHeUKZK2LXjrhTAG-3KBer_0/export?format=pdf"
             className="ml-4 text-indigo-300 hover:text-indigo-400 transition-colors"
             target="_blank"
             rel="noopener noreferrer"

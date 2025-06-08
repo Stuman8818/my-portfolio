@@ -1,6 +1,7 @@
 // app/components/Content.tsx
 import type { FC } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface Experience {
   company: string;
@@ -37,23 +38,23 @@ const experiences: Experience[] = [
 
 const projects: Project[] = [
   {
-    name: "EBR",
+    name: "EBR (Electronic Bench Record)",
     description:
-      "A SaaS application that tracks material quantities, usage, and testing throughout the manufacturing process, storing data efficiently in a database.",
-    stack: ["React", "Python", "MUI", "JavaScript"],
+      "EBR is a vital application in Sherwin-Williams’ manufacturing process, supporting quality control and material tracking. It displays real-time product data on the plant floor.",
+    stack: ["React", "Python", "MUI", "JavaScript", "CSS", "HTML"],
   },
   {
-    name: "Mixing Application",
+    name: "Kellogg's QC Platform",
     description:
-      "A SaaS tool enabling plant operators to track material mixing and analyze interaction results.",
-    stack: ["AngularJS", "Node.js", "Express.js", "JavaScript"],
+      "A quality control application built for Kellogg’s Cheez-It manufacturing process. Developed with Angular and Node.js, it allows operators to validate product batches, input test data, and ensure adherence to internal QC standards during the mixing and formulation stages.",
+    stack: ["AngularJS", "Node.js", "Express.js", "TypeScript", "SCSS"],
   },
   {
-    name: "MedSitter",
+    name: "Collette Health",
     externalUrl:
       "https://www.collettehealth.com/solutions/#VirtualNursing",
     description:
-      "A patient monitoring service allowing nurses to observe up to 10 patients and interact via video communication.",
+      "At Collette Health, I helped build a SaaS-based Virtual Observation platform enabling nurses to monitor 10 patients via live video. It supported two-way communication, real-time alerts, and patient record access to improve safety.",
     stack: ["Vue.js", "Laravel", "Tailwind CSS", "TypeScript", "JavaScript"],
   },
 ];
@@ -71,9 +72,11 @@ const PortFolioContent: FC = () => {
         </h2>
 
         <p className="text-gray-400 leading-relaxed mt-2">
-          I&apos;m a frontend developer passionate about pixel-perfect UI and a
-          seamless UX. I take pride in ensuring that every component and
-          feature I build delivers a robust, user-friendly experience.
+          Frontend-focused Software Engineer with 3 years of experience building large-scale React and Vue applications.
+          Original team member on the Electronic Bench Record (EBR) system, now deployed in 5 Sherwin-Williams plants and
+          used by 100+ operators. Built core frontend features critical to the manufacturing process. At Collette Health,
+          contributed significantly to the frontend of their virtual nursing platform, developing its responsive layout and
+          reusable component system.
         </p>
         <p className="text-gray-400 leading-relaxed mt-4">
           Currently, I&apos;m a Software Developer I at Rain Engineering, where
@@ -145,6 +148,18 @@ const PortFolioContent: FC = () => {
             <p className="text-gray-400 leading-relaxed mt-2">
               {proj.description}
             </p>
+            {proj.name === "Collette Health" && (
+              <div className="mt-4">
+                <Image
+                  src="/ColletteHealth.png"
+                  alt="Collette Health screenshot"
+                  width={800}
+                  height={450}
+                  className="rounded-lg shadow-md"
+                />
+              </div>
+            )}
+
             <ul className="flex flex-wrap mt-2 text-gray-300">
               {proj.stack.map((tech) => (
                 <li
