@@ -21,18 +21,15 @@ const experiences: Experience[] = [
   {
     company: "Rain Engineering",
     title: "Software Engineer",
-    companyUrl:
-      "https://www.linkedin.com/company/raineng/posts/?feedView=all",
-    copy:
-      "Developed and deployed a full-scale manufacturing app in 7 months. Led UX/UI and front-end efforts, integrating Figma wireframes into React components. Implemented security features, optimized workflows for multiple plants, and ensured smooth API interactions.",
+    companyUrl: "https://www.linkedin.com/company/raineng/posts/?feedView=all",
+    copy: "Developed and deployed a full-scale manufacturing app in 7 months. Led UX/UI and front-end efforts, integrating Figma wireframes into React components. Implemented security features, optimized workflows for multiple plants, and ensured smooth API interactions.",
   },
   {
     company: "Collette Health",
     title: "Software Developer",
     companyUrl:
       "https://www.linkedin.com/company/collettehealth/posts/?feedView=all",
-    copy:
-      "Collaborated on a responsive video monitoring system for hospitals. Built reusable Vue components, migrated legacy code, improved security, and enhanced code maintainability with Tailwind CSS and modern frontend standards.",
+    copy: "Collaborated on a responsive video monitoring system for hospitals. Built reusable Vue components, migrated legacy code, improved security, and enhanced code maintainability with Tailwind CSS and modern frontend standards.",
   },
 ];
 
@@ -51,8 +48,7 @@ const projects: Project[] = [
   },
   {
     name: "Collette Health",
-    externalUrl:
-      "https://www.collettehealth.com/solutions/#VirtualNursing",
+    externalUrl: "https://www.collettehealth.com/solutions/#VirtualNursing",
     description:
       "At Collette Health, I helped build a SaaS-based Virtual Observation platform enabling nurses to monitor 10 patients via live video. It supported two-way communication, real-time alerts, and patient record access to improve safety.",
     stack: ["Vue.js", "Laravel", "Tailwind CSS", "TypeScript", "JavaScript"],
@@ -72,11 +68,14 @@ const PortFolioContent: FC = () => {
         </h2>
 
         <p className="text-gray-400 leading-relaxed mt-2">
-          Frontend-focused Software Engineer with 3 years of experience building large-scale React and Vue applications.
-          Original team member on the Electronic Bench Record (EBR) system, now deployed in 5 Sherwin-Williams plants and
-          used by 100+ operators. Built core frontend features critical to the manufacturing process. At Collette Health,
-          contributed significantly to the frontend of their virtual nursing platform, developing its responsive layout and
-          reusable component system.
+          Frontend-focused Software Engineer with 3 years of experience building
+          large-scale React and Vue applications. Original team member on the
+          Electronic Bench Record (EBR) system, now deployed in 5
+          Sherwin-Williams plants and used by 100+ operators. Built core
+          frontend features critical to the manufacturing process. At Collette
+          Health, contributed significantly to the frontend of their virtual
+          nursing platform, developing its responsive layout and reusable
+          component system.
         </p>
         <p className="text-gray-400 leading-relaxed mt-4">
           Currently, I&apos;m a Software Developer I at Rain Engineering, where

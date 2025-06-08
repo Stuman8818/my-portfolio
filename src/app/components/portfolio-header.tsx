@@ -17,7 +17,9 @@ const PortFolioHeader: FC = () => {
             Front-End Engineer
           </h2>
           <p className="mt-4 text-gray-400">
-            Software Engineer with a front-end focus and back-end experience. I specialize in building clean, responsive UIs using modern javascript libraries like React, Vue, and Angular.
+            Software Engineer with a front-end focus and back-end experience. I
+            specialize in building clean, responsive UIs using modern javascript
+            libraries like React, Vue, and Angular.
           </p>
         </div>
 
@@ -68,7 +70,10 @@ const PortFolioHeader: FC = () => {
             rel="noopener noreferrer"
             aria-label="Download résumé"
           >
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="h-5 w-5" />
+            <FontAwesomeIcon
+              icon={faArrowUpRightFromSquare}
+              className="h-5 w-5"
+            />
           </a>
         </div>
 
