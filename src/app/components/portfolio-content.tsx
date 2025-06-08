@@ -129,19 +129,18 @@ const PortFolioContent: FC = () => {
           >
             <h3
               id={`${proj.name}-title`}
-              className="text-xl font-semibold text-indigo-300"
+              className="text-xl font-semibold text-indigo-300 flex items-center"
             >
-              {proj.externalUrl ? (
+              {proj.name}
+              {proj.externalUrl && (
                 <a
                   href={proj.externalUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-indigo-400 transition-colors"
+                  className="ml-2 text-sm hover:text-indigo-400 transition-colors"
                 >
-                  {proj.name}
+                  (link to demo)
                 </a>
-              ) : (
-                proj.name
               )}
             </h3>
             <p className="text-gray-400 leading-relaxed mt-2">

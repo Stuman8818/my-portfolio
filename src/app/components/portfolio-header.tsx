@@ -56,18 +56,17 @@ const PortFolioHeader: FC = () => {
         {/* Résumé download */}
         <div className="mt-10 flex items-center">
           <a
-            href="https://drive.google.com/uc?export=download&id=1ZrSHKzl1dpGv9xpu7TrT7-3nrKjYShuQ"
+            href="Dave_Stewart_Frontend_Software_Developer_Resume.pdf"
+            download="Dave_Stewart_Frontend_Software_Developer_Resume.pdf"
             className="text-indigo-300 hover:text-indigo-400 transition-colors"
-            target="_blank"
             rel="noopener noreferrer"
           >
             Full Résumé
           </a>
           <a
-            href="https://docs.google.com/document/d/1HMR2gQ4dF4H6WZr2eI_MHeUKZK2LXjrhTAG-3KBer_0/export?format=pdf"
+            href="Dave_Stewart_Frontend_Software_Developer_Resume.pdf"
+            download="Dave_Stewart_Frontend_Software_Developer_Resume.pdf"
             className="ml-4 text-indigo-300 hover:text-indigo-400 transition-colors"
-            target="_blank"
-            rel="noopener noreferrer"
             aria-label="Download résumé"
           >
             <FontAwesomeIcon
