@@ -174,11 +174,7 @@ const PortFolioContent: FC = () => {
                 ></iframe>
               </div>
             )}
-            The clouds and leaves animation should display live in your
-            portfolio—visitors will see it animating just like they would if
-            they visited the app directly. What platform is your portfolio built
-            on? If you tell me (React, Next.js, static HTML, etc.), I can give
-            you more specific integration tips!
+
             <ul className="flex flex-wrap mt-2 text-gray-300">
               {proj.stack.map((tech) => (
                 <li

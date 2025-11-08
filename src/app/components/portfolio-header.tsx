@@ -56,16 +56,16 @@ const PortFolioHeader: FC = () => {
         {/* Résumé download */}
         <div className="mt-10 flex items-center">
           <a
-            href="Dave_Stewart_Frontend_Software_Developer_Resume.pdf"
-            download="Dave_Stewart_Frontend_Software_Developer_Resume.pdf"
+            href="https://drive.google.com/uc?export=download&id=1-te8SFrRFBqYLF9xYgd3I-IHMvZlpCv5"
+            download="Dave_Stewart_Software_Engineer_Resmue.pdf"
             className="text-indigo-300 hover:text-indigo-400 transition-colors"
             rel="noopener noreferrer"
           >
             Full Résumé
           </a>
           <a
-            href="Dave_Stewart_Frontend_Software_Developer_Resume.pdf"
-            download="Dave_Stewart_Frontend_Software_Developer_Resume.pdf"
+            href="https://drive.google.com/uc?export=download&id=1-te8SFrRFBqYLF9xYgd3I-IHMvZlpCv5"
+            download="Dave_Stewart_Software_Engineer_Resmue.pdf"
             className="ml-4 text-indigo-300 hover:text-indigo-400 transition-colors"
             aria-label="Download résumé"
           >
@@ -80,7 +80,7 @@ const PortFolioHeader: FC = () => {
         <ul className="mt-8 flex space-x-6" aria-label="Social media">
           <li>
             <a
-              href="www.linkedin.com/in/dave-stewart-engineer"
+              href="https://www.linkedin.com/in/dave-stewart-engineer"
               target="_blank"
               rel="noopener noreferrer"
               title="LinkedIn"
