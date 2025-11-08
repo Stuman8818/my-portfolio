@@ -164,14 +164,16 @@ const PortFolioContent: FC = () => {
                 />
               </div>
             )}
-            <div className="max-w-3xl mx-auto my-5">
-              <iframe
-                src="https://journal-app-beige-five.vercel.app/"
-                width="100%"
-                height="600"
-                className="rounded-lg shadow-md"
-              ></iframe>
-            </div>
+            {proj.name === "Daily Quest Book" && (
+              <div className="max-w-3xl mx-auto my-5">
+                <iframe
+                  src="https://journal-app-beige-five.vercel.app/"
+                  width="100%"
+                  height="600"
+                  className="rounded-lg shadow-md"
+                ></iframe>
+              </div>
+            )}
             The clouds and leaves animation should display live in your
             portfolio—visitors will see it animating just like they would if
             they visited the app directly. What platform is your portfolio built
