@@ -164,7 +164,6 @@ const PortFolioContent: FC = () => {
                 />
               </div>
             )}
-            if(window.self !== window.top)
             <div className="max-w-3xl mx-auto my-5">
               <iframe
                 src="https://journal-app-beige-five.vercel.app/"
