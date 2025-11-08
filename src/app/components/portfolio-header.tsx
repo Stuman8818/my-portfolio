@@ -57,7 +57,7 @@ const PortFolioHeader: FC = () => {
         <div className="mt-10 flex items-center">
           <a
             href="https://drive.google.com/uc?export=download&id=1-te8SFrRFBqYLF9xYgd3I-IHMvZlpCv5"
-            download="Dave_Stewart_Software_Engineer_Resmue.pdf"
+            download="Dave Stewart Engineer Resume.pdf"
             className="text-indigo-300 hover:text-indigo-400 transition-colors"
             rel="noopener noreferrer"
           >
@@ -65,7 +65,7 @@ const PortFolioHeader: FC = () => {
           </a>
           <a
             href="https://drive.google.com/uc?export=download&id=1-te8SFrRFBqYLF9xYgd3I-IHMvZlpCv5"
-            download="Dave_Stewart_Software_Engineer_Resmue.pdf"
+            download="Dave Stewart Engineer Resume.pdf"
             className="ml-4 text-indigo-300 hover:text-indigo-400 transition-colors"
             aria-label="Download résumé"
           >
