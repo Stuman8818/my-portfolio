@@ -51,7 +51,14 @@ const projects: Project[] = [
     externalUrl: "https://www.collettehealth.com/solutions/#VirtualNursing",
     description:
       "At Collette Health, I helped build a SaaS-based Virtual Observation platform enabling nurses to monitor 10 patients via live video. It supported two-way communication, real-time alerts, and patient record access to improve safety.",
-    stack: ["Vue.js", "Laravel", "Tailwind CSS", "TypeScript", "JavaScript"],
+    stack: ["Next.js", "MongoDB", "Tailwind CSS", "TypeScript", "JavaScript"],
+  },
+  {
+    name: "Daily Quest Book",
+    externalUrl: "https://journal-app-beige-five.vercel.app/",
+    description:
+      "A habit-tracking application inspired by Stardew Valley's cozy aesthetic that helps users monitor daily habits and build healthier routines. Features user authentication, daily logging for water intake, sleep, physical activity, cooking vs. eating out, outdoor time, and journal entries. Includes an interactive calendar view for browsing complete entry history, automatic monthly statistics across all categories, and flexible data entry allowing users to update past dates. Built with a focus on creating a non-judgmental, supportive space for self-reflection with plans to add community features, gamification, and advanced workout tracking.",
+    stack: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "React"],
   },
 ];
 
@@ -157,7 +164,20 @@ const PortFolioContent: FC = () => {
                 />
               </div>
             )}
-
+            if(window.self !== window.top)
+            <div className="max-w-3xl mx-auto my-5">
+              <iframe
+                src="https://journal-app-beige-five.vercel.app/"
+                width="100%"
+                height="600"
+                className="rounded-lg shadow-md"
+              ></iframe>
+            </div>
+            The clouds and leaves animation should display live in your
+            portfolio—visitors will see it animating just like they would if
+            they visited the app directly. What platform is your portfolio built
+            on? If you tell me (React, Next.js, static HTML, etc.), I can give
+            you more specific integration tips!
             <ul className="flex flex-wrap mt-2 text-gray-300">
               {proj.stack.map((tech) => (
                 <li

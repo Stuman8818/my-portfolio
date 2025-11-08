@@ -80,7 +80,7 @@ const PortFolioHeader: FC = () => {
         <ul className="mt-8 flex space-x-6" aria-label="Social media">
           <li>
             <a
-              href="https://www.linkedin.com/in/dave-stewart-6092bb296"
+              href="www.linkedin.com/in/dave-stewart-engineer"
               target="_blank"
               rel="noopener noreferrer"
               title="LinkedIn"
