@@ -184,7 +184,7 @@ const PortFolioContent: FC = () => {
             {proj.name === "Indiana Drone Media" && (
               <div className="max-w-3xl mx-auto my-5">
                 <iframe
-                  src="indianadronemedia.com"
+                  src="https://indianadronemedia.com"
                   width="100%"
                   height="600"
                   className="rounded-lg shadow-md"
