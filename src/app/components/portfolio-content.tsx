@@ -60,6 +60,13 @@ const projects: Project[] = [
       "A habit-tracking application inspired by Stardew Valley's cozy aesthetic that helps users monitor daily habits and build healthier routines. Features user authentication, daily logging for water intake, sleep, physical activity, cooking vs. eating out, outdoor time, and journal entries. Includes an interactive calendar view for browsing complete entry history, automatic monthly statistics across all categories, and flexible data entry allowing users to update past dates. Built with a focus on creating a non-judgmental, supportive space for self-reflection with plans to add community features, gamification, and advanced workout tracking.",
     stack: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "React"],
   },
+  {
+    name: "Indiana Drone Media",
+    externalUrl: "https://indianadronemedia.com",
+    description:
+      "A professional drone photography and videography platform connecting businesses in Indiana with high-quality aerial media services. IndianaDroneMedia specializes in real estate photography showcasing luxury properties from stunning aerial perspectives, event coverage capturing dynamic moments from above, and marketing content that elevates brand visibility. Features service packages ranging from starter to premium tiers, transparent pricing for residential and commercial projects, portfolio showcasing completed work across real estate, events, and marketing campaigns. Includes online booking system with Stripe payment integration, detailed service information with inclusions and benefits, and testimonial sections building client trust. Built to help real estate agents increase listing inquiries by up to 68%, event planners create lasting memories, and brands boost engagement through cinematic aerial perspectives.",
+    stack: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "React"],
+  },
 ];
 
 const PortFolioContent: FC = () => {
@@ -168,6 +175,16 @@ const PortFolioContent: FC = () => {
               <div className="max-w-3xl mx-auto my-5">
                 <iframe
                   src="https://journal-app-beige-five.vercel.app/"
+                  width="100%"
+                  height="600"
+                  className="rounded-lg shadow-md"
+                ></iframe>
+              </div>
+            )}
+            {proj.name === "Indiana Drone Media" && (
+              <div className="max-w-3xl mx-auto my-5">
+                <iframe
+                  src="indianadronemedia.com"
                   width="100%"
                   height="600"
                   className="rounded-lg shadow-md"
