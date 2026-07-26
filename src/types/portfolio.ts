@@ -3,6 +3,20 @@ export interface ProjectImageConfig {
   alt: string;
 }
 
+export interface ProjectHighlight {
+  title: string;
+  role?: string;
+  description: string;
+  technologies: string[];
+  details?: string[];
+  relatedWork?: {
+    title: string;
+    description: string;
+    technologies: string[];
+  };
+  image?: ProjectImageConfig;
+}
+
 export type ProjectStatus =
   | "completed"
   | "active"
@@ -15,6 +29,7 @@ export interface Project {
   shortDescription: string;
   fullDescription: string;
   role: string;
+  company?: string;
   projectType?: string;
   status?: ProjectStatus;
   dates?: string;
@@ -25,6 +40,9 @@ export interface Project {
   challenges?: string[];
   solutions?: string[];
   outcomes?: string[];
+  technicalApproach?: string[];
+  keyTakeaway?: string;
+  highlights?: ProjectHighlight[];
   image?: ProjectImageConfig;
   galleryImages?: ProjectImageConfig[];
   githubUrl?: string;
