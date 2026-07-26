@@ -62,9 +62,8 @@ export const projects: Project[] = [
       "Worked as one of three front-end React developers on a manufacturing application taken from inception to live deployment in approximately seven months.",
       "Contributed substantially to UX/UI implementation.",
       "Translated Figma designs into working interfaces with client UX/UI and product-management teams.",
-      "Led or had major ownership of generalized batch-history and material-combination workflows.",
+      "Led or had major ownership of generalized production-history and data-entry workflows.",
       "Supported multiple plants with different operational requirements.",
-      "Contributed to permissions and security-related functionality.",
       "Provided on-site launch support in the Netherlands.",
     ],
     challenges: [
@@ -73,7 +72,7 @@ export const projects: Project[] = [
     ],
     solutions: [
       "Built and refined React interfaces in coordination with client design and product-management teams.",
-      "Took major ownership of key history and data-entry workflows while contributing to permissions and security functionality.",
+      "Took major ownership of key production-history and data-entry workflows.",
     ],
     outcomes: [
       "Helped take a manufacturing application from inception to live deployment in approximately seven months.",
@@ -82,7 +81,7 @@ export const projects: Project[] = [
     // TODO: Add screenshots or gallery images only after publication approval.
     // TODO: Add an exact public project link only if NDA-safe wording and access are confirmed.
     confidentialityNotice:
-      "This work is NDA-protected. Descriptions are intentionally generalized and omit client identities, internal endpoints, database implementation details, plant identifiers, customer data, and proprietary terminology.",
+      "This project is protected by confidentiality agreements. All visuals, data, and workflows shown here are generalized or recreated for portfolio purposes and do not represent the original application.",
   },
   {
     slug: "daily-quest-book",

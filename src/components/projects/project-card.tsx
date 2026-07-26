@@ -81,9 +81,10 @@ export function ProjectCard({ project }: ProjectCardProps) {
   const isProfessional = project.projectType
     ?.toLowerCase()
     .includes("professional");
-  const isNdaProtected = project.confidentialityNotice
-    ?.toLowerCase()
-    .includes("nda");
+  const confidentialityText = project.confidentialityNotice?.toLowerCase();
+  const isNdaProtected =
+    confidentialityText?.includes("nda") ||
+    confidentialityText?.includes("confidentiality agreements");
 
   return (
     <article

@@ -1027,6 +1027,242 @@ header nav a:hover {
   }
 }
 
+.confidentiality-notice {
+  margin-top: 1.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-text-muted);
+  border-radius: 0.65rem;
+  background: color-mix(in srgb, var(--color-section) 78%, transparent);
+  color: var(--color-text-secondary);
+  font-size: 0.78rem;
+  line-height: 1.65;
+}
+
+.confidentiality-notice strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--color-text-primary);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.manufacturing-case-study {
+  --manufacturing-accent: #e4ad55;
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 3rem;
+}
+
+.manufacturing-case-study__heading {
+  margin-bottom: 0.5rem;
+}
+
+.manufacturing-case-study__heading > p {
+  color: var(--manufacturing-accent);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.manufacturing-case-study__heading h2 {
+  margin-top: 0.5rem;
+  color: var(--color-text-primary);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+}
+
+.manufacturing-visual {
+  min-width: 0;
+  overflow: hidden;
+  padding: clamp(1.25rem, 3vw, 1.75rem);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: color-mix(in srgb, var(--color-section) 88%, transparent);
+  box-shadow: var(--shadow-card);
+}
+
+.manufacturing-visual figcaption > span {
+  color: var(--manufacturing-accent);
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.manufacturing-visual figcaption h3 {
+  margin-top: 0.4rem;
+  color: var(--color-text-primary);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.manufacturing-visual figcaption p {
+  max-width: 42rem;
+  margin-top: 0.5rem;
+  color: var(--color-text-secondary);
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.manufacturing-flow {
+  display: grid;
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+  list-style: none;
+}
+
+.manufacturing-flow li {
+  display: grid;
+  position: relative;
+  min-width: 0;
+  min-height: 4.75rem;
+  align-content: center;
+  padding: 0.85rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.7rem;
+  background: color-mix(in srgb, var(--color-page) 78%, transparent);
+}
+
+.manufacturing-flow li:not(:last-child)::after {
+  position: absolute;
+  right: 50%;
+  bottom: -1.6rem;
+  color: var(--manufacturing-accent);
+  content: "↓";
+  font-family: var(--font-mono);
+  transform: translateX(50%);
+}
+
+.manufacturing-flow li > span {
+  color: var(--manufacturing-accent);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+}
+
+.manufacturing-flow li > strong {
+  margin-top: 0.25rem;
+  color: var(--color-text-primary);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.manufacturing-ui {
+  margin-top: 1.5rem;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 0.8rem;
+  background: var(--color-page);
+}
+
+.manufacturing-ui__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.manufacturing-ui__header > div {
+  display: grid;
+}
+
+.manufacturing-ui__header span,
+.manufacturing-ui__summary span {
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.manufacturing-ui__header strong {
+  color: var(--color-text-primary);
+  font-size: 0.9rem;
+}
+
+.manufacturing-ui__connection {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--color-text-secondary);
+}
+
+.manufacturing-ui__connection::before {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--manufacturing-accent);
+  content: "";
+}
+
+.manufacturing-ui__summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--color-border);
+}
+
+.manufacturing-ui__summary > div {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.9rem;
+  background: var(--color-section);
+}
+
+.manufacturing-ui__summary strong {
+  color: var(--color-text-primary);
+  font-family: var(--font-mono);
+  font-size: 1rem;
+}
+
+.manufacturing-ui__table {
+  padding: 0.5rem 1rem 1rem;
+}
+
+.manufacturing-ui__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(5rem, 0.8fr) minmax(
+      5rem,
+      0.7fr
+    );
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-size: 0.72rem;
+}
+
+.manufacturing-ui__row:last-child {
+  border-bottom: 0;
+}
+
+.manufacturing-ui__row--header {
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.manufacturing-ui__row strong {
+  color: var(--color-text-primary);
+}
+
+.manufacturing-ui__row [data-status="active"] {
+  color: var(--manufacturing-accent);
+}
+
 section[class*="bg-slate-900"] {
   border-color: var(--color-border);
   box-shadow: var(--shadow-card);
@@ -1118,6 +1354,19 @@ div[class*="bg-slate-950"] {
 
   .hero-section__headline {
     font-size: clamp(2rem, 11vw, 2.65rem);
+  }
+
+  .manufacturing-ui__summary {
+    grid-template-columns: 1fr;
+  }
+
+  .manufacturing-ui__row {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+
+  .manufacturing-ui__row--header {
+    display: none;
   }
 }
 
@@ -1229,6 +1478,23 @@ div[class*="bg-slate-950"] {
 
   .projects-showcase__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .manufacturing-flow {
+    grid-template-columns: repeat(var(--flow-columns, 5), minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  .manufacturing-flow:has(li:nth-child(4):last-child) {
+    --flow-columns: 4;
+  }
+
+  .manufacturing-flow li:not(:last-child)::after {
+    top: 50%;
+    right: -1.15rem;
+    bottom: auto;
+    content: "→";
+    transform: translateY(-50%);
   }
 
   .growth-philosophy__values::before {

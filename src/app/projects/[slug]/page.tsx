@@ -1,4 +1,5 @@
 import { SiteHeader } from "@/components/layout/site-header";
+import { ManufacturingCaseStudyVisuals } from "@/components/projects/manufacturing-case-study-visuals";
 import { getProjectBySlug, getProjectSlugs } from "@/lib/portfolio";
 import Image from "next/image";
 import Link from "next/link";
@@ -39,6 +40,16 @@ export default async function ProjectDetailPage({
           {project.fullDescription}
         </p>
 
+        {project.confidentialityNotice ? (
+          <aside
+            className="confidentiality-notice"
+            aria-label="Confidentiality notice"
+          >
+            <strong>Confidentiality notice</strong>
+            <p>{project.confidentialityNotice}</p>
+          </aside>
+        ) : null}
+
         {project.image ? (
           <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-2xl border border-slate-800">
             <Image
@@ -49,6 +60,10 @@ export default async function ProjectDetailPage({
               className="object-cover"
             />
           </div>
+        ) : null}
+
+        {project.slug === "manufacturing-applications-rain-engineering" ? (
+          <ManufacturingCaseStudyVisuals />
         ) : null}
 
         <div className="mt-8">
