@@ -52,8 +52,8 @@ export const projects: Project[] = [
     shortDescription:
       "Applications supporting manufacturing operations, production workflows, batch history, genealogy tracking, data entry, and plant-specific requirements.",
     fullDescription:
-      "At Rain Engineering, I worked as one of three front-end React developers on manufacturing applications supporting production workflows across multiple plants. One application progressed from inception to live deployment in approximately seven months. I contributed substantially to UX/UI implementation and worked with client UX/UI and product-management teams to translate Figma designs into working interfaces.",
-    role: "Software Developer II / Front-End Engineer",
+      "At Rain Engineering, I have contributed to and led manufacturing applications supporting quality control, production visibility, ingredient traceability, batch genealogy, and daily plant activities. My responsibilities have ranged from working as one of three front-end developers on a large React application to serving as lead developer and sole developer on other systems. Across these projects, I have contributed substantially to UX/UI implementation, translated designs into working interfaces, and supported the different workflows of operators and supervisors on the plant floor.",
+    role: "Software Developer / Front-End Engineer",
     company: "Rain Engineering",
     projectType: "Professional manufacturing applications",
     // TODO: Add employment or project dates once they are confirmed for publication.
@@ -72,16 +72,16 @@ export const projects: Project[] = [
       "GraphQL",
     ],
     responsibilities: [
-      "Worked as one of three front-end React developers on a manufacturing application taken from inception to live deployment in approximately seven months.",
-      "Contributed substantially to UX/UI implementation.",
-      "Translated Figma designs into working interfaces with client UX/UI and product-management teams.",
-      "Led or had major ownership of generalized production-history and data-entry workflows.",
-      "Supported multiple plants with different operational requirements.",
-      "Provided on-site launch support in the Netherlands.",
+      "Worked as one of three front-end React developers on the Electronic Bench Record, contributing to UX/UI implementation, quality-control workflows, batch visibility, and historical production data.",
+      "Served as lead developer on the Kellogg Mixing App, building workflows for ingredient quantities, source lots, production lines, and batch statuses.",
+      "Created the React-based Mixing Sheet partner application and contributed the supporting database logic for its batch-genealogy view.",
+      "Led and independently developed the Plant Activity Tracker, from its interface and activity workflows through its React and REST API integration.",
+      "Collaborated with UX/UI and product-management teams to translate Figma designs into working manufacturing interfaces.",
+      "Supported applications used across multiple plants, including multilingual requirements and on-site launch support in the Netherlands.",
     ],
     challenges: [
       "Supporting shared manufacturing workflows while accommodating different plant requirements.",
-      "Turning approved designs into production interfaces within an approximately seven-month delivery window.",
+      "Turning approved designs into production interfaces.",
     ],
     solutions: [
       "Built and refined React interfaces in coordination with client design and product-management teams.",
