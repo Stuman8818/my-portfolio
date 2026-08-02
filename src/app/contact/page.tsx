@@ -15,8 +15,7 @@ export default function ContactPage() {
         <div className="mt-8 space-y-4 rounded-2xl border border-slate-800 bg-slate-900/70 p-8">
           <a
             href={resumeUrl}
-            target="_blank"
-            rel="noreferrer"
+            download="Software Engineer Resume Dave Stewart.pdf"
             className="block text-indigo-300 transition hover:text-indigo-200"
           >
             Download résumé

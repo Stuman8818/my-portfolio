@@ -19,8 +19,7 @@ export function ContactCtaSection() {
       <div className="mt-6 flex flex-wrap gap-3">
         <a
           href={resumeUrl}
-          target="_blank"
-          rel="noreferrer"
+          download="Software Engineer Resume Dave Stewart.pdf"
           className="rounded-full bg-indigo-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-indigo-400"
         >
           View résumé

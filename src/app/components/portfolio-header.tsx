@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { resumeUrl } from "@/data/skills";
 
 const PortFolioHeader: FC = () => {
   return (
@@ -56,15 +57,14 @@ const PortFolioHeader: FC = () => {
         {/* Résumé download */}
         <div className="mt-10 flex items-center">
           <a
-            href="https://drive.google.com/uc?export=download&id=1h63eHfaUTXZWs-DBjQCKTaYqktYeQTbA"
+            href={resumeUrl}
             download="Software Engineer Resume Dave Stewart.pdf"
             className="text-indigo-300 hover:text-indigo-400 transition-colors"
-            rel="noopener noreferrer"
           >
             Full Résumé
           </a>
           <a
-            href="https://drive.google.com/uc?export=download&id=1h63eHfaUTXZWs-DBjQCKTaYqktYeQTbA"
+            href={resumeUrl}
             download="Software Engineer Resume Dave Stewart.pdf"
             className="ml-4 text-indigo-300 hover:text-indigo-400 transition-colors"
             aria-label="Download résumé"

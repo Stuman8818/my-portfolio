@@ -46,7 +46,7 @@ export const socialLinks: SocialLink[] = [
     title: "Visit Dave Stewart on LinkedIn",
   },
   {
-    label: "PersonalGitHub",
+    label: "Personal GitHub",
     href: "https://github.com/Stuman8818",
     title: "Visit Dave Stewart on GitHub",
   },
@@ -58,4 +58,4 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const resumeUrl =
-  "https://drive.google.com/uc?export=download&id=1h63eHfaUTXZWs-DBjQCKTaYqktYeQTbA";
+  "/Software Engineer Resume Dave Stewart.pdf";
