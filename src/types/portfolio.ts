@@ -54,13 +54,6 @@ export interface Project {
   confidentialityNotice?: string;
 }
 
-export interface ExperienceItem {
-  company: string;
-  role: string;
-  companyUrl: string;
-  summary: string;
-}
-
 export interface SkillGroup {
   title: string;
   items: string[];

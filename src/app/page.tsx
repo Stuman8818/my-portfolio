@@ -2,7 +2,6 @@ import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { AboutPreviewSection } from "@/components/sections/about-preview-section";
 import { ContactCtaSection } from "@/components/sections/contact-cta-section";
-import { ExperienceSection } from "@/components/sections/experience-section";
 import { GrowthPhilosophySection } from "@/components/sections/growth-philosophy-section";
 import { IntroSection } from "@/components/sections/intro-section";
 import { ProjectsSection } from "@/components/sections/projects-section";
@@ -16,7 +15,6 @@ export default function HomePage() {
         <IntroSection />
         <GrowthPhilosophySection />
         <ProjectsSection />
-        <ExperienceSection />
         <SkillsSection />
         <AboutPreviewSection />
         <ContactCtaSection />
