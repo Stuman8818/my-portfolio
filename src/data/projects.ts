@@ -188,26 +188,69 @@ export const projects: Project[] = [
   },
   {
     slug: "garden-planning-application",
-    title: "Garden Planning Application",
+    title: "Yard To Table",
     shortDescription:
-      "An in-development product for planning a garden within a yard or other available growing space.",
+      "A production-minded full-stack platform for a pre-launch lawn-care and garden-planning business, combining public lead intake with a foundation for property and service operations.",
     fullDescription:
-      "This personal product is in development. Its purpose is to help users plan a garden within their available growing space, learn what to grow, and access planning and maintenance guidance. Plant selection, garden layout planning, growing information, care instructions, and seasonal maintenance are planned capabilities; the repository does not yet confirm them as implemented.",
-    role: "Independent builder",
-    projectType: "Personal product",
+      "Yard To Table is a full-stack application being developed alongside a future lawn-care, garden-planning, and installation business. The business is still pre-launch. Its public experience introduces the planned services and collects early customer interest through a working lead-intake flow. The underlying application is designed to eventually manage the operational journey from property records and assessments through estimates, scheduling, jobs, and ongoing care; those broader workflows remain on the roadmap. The project also serves as a software engineering portfolio case study, with future multi-company SaaS potential treated as an architectural direction rather than a currently implemented product.",
+    role: "Independent Full-Stack Developer & Product Designer",
+    projectType: "Full-stack product / pre-launch business platform",
     status: "in-development",
-    // TODO: Confirm project dates.
+    dates: "2026–Present",
     featured: true,
     displayOrder: 4,
-    // TODO: Add technologies after the implementation stack is confirmed.
-    technologies: [],
-    responsibilities: [
-      "Planned: Help users identify what to grow.",
-      "Planned: Support garden layout planning for available growing space.",
-      "Planned: Provide growing information and care instructions.",
-      "Planned: Provide seasonal maintenance guidance.",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "Apollo Client",
+      "Apollo Server",
+      "Prisma",
+      "Neon Postgres",
+      "Zod",
+      "Resend",
+      "Vercel",
+      "GitHub Actions",
     ],
-    // TODO: Document implemented functionality as development progresses.
-    // TODO: Add approved screenshots, a repository URL, or a live-demo URL when available.
+    responsibilities: [
+      "Designed and developed Yard To Table from an initial business concept into a deployed full-stack application.",
+      "Built a responsive public lead-intake workflow with shared Zod validation, typed GraphQL operations, resolver and service-layer separation, and Prisma persistence to Neon Postgres.",
+      "Integrated Resend for server-side lead notifications while preserving a successful lead submission when notification delivery fails after the database write.",
+      "Created separate development and production database environments using Neon branches and environment-specific deployment configuration.",
+      "Redesigned the public experience around a pre-launch lawn-care and garden-planning business powered by custom operational software.",
+      "Modeled the launch lawn-care service around real business rules, bundling mowing, trimming and edging, and cleanup into one customer-selectable offering.",
+      "Established a foundation for future property, assessment, estimate, scheduling, job, and ongoing-care workflows without prematurely implementing multi-tenancy or subscriptions.",
+    ],
+    challenges: [
+      "Balancing three goals: a credible future service business, a technically strong portfolio project, and a foundation that could later support a SaaS product.",
+      "Keeping development and production data isolated while maintaining a straightforward Prisma migration workflow.",
+      "Modeling services around real business rules instead of treating every operational task as a separate customer-selectable service.",
+      "Presenting unfinished business and software capabilities honestly without making the application feel like a placeholder.",
+    ],
+    solutions: [
+      "Positioned Yard To Table as a pre-launch service company powered by a custom operational platform.",
+      "Used separate Neon branches and environment-specific database configuration for development and production.",
+      "Implemented a layered lead-submission architecture with shared validation, GraphQL, a service layer, Prisma, and Resend.",
+      "Kept future SaaS concerns in mind without adding speculative organization, billing, or multi-tenant complexity too early.",
+    ],
+    outcomes: [
+      "Deployed a working public application to Vercel.",
+      "Completed the first end-to-end vertical feature from public form submission through database persistence and email notification.",
+      "Established an extensible architecture and roadmap for future operational workflows.",
+      "Created a project demonstrating product design, frontend development, backend integration, database modeling, validation, deployment, and CI/CD practices.",
+    ],
+    technicalApproach: [
+      "The implemented lead flow collects first and last names, Indiana service details, and the currently enabled bundled lawn-care interest through responsive loading, success, and error states.",
+      "Shared Zod rules validate inputs on both client and server before a typed createLead GraphQL mutation reaches the resolver and service layers.",
+      "Prisma persists leads to Neon Postgres before Resend sends the server-side notification, with failures handled according to whether the database write succeeded.",
+      "Authentication, administrative lead management, property assessments, estimates, scheduling, jobs, payments, reporting, and SaaS multi-tenancy remain roadmap items.",
+    ],
+    image: {
+      src: "/Yard To Table.PNG",
+      alt: "Yard To Table pre-launch homepage showing planned lawn and garden services and the custom property-management platform",
+    },
+    githubUrl: "https://github.com/Stuman8818/yard-to-table",
+    liveDemoUrl: "https://yard-to-table.vercel.app/",
   },
 ];

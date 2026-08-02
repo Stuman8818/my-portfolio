@@ -6,10 +6,10 @@ import { useEffect, useRef, useState } from "react";
 
 const navigationItems = [
   { label: "Home", sectionId: "home", route: "/" },
-  { label: "About", sectionId: "about", route: "/about" },
-  { label: "Experience", sectionId: "experience", route: "/" },
   { label: "Projects", sectionId: "projects", route: "/projects" },
+  { label: "Experience", sectionId: "experience", route: "/" },
   { label: "Skills", sectionId: "skills", route: "/" },
+  { label: "About", sectionId: "about", route: "/about" },
   { label: "Contact", sectionId: "contact", route: "/contact" },
 ] as const;
 

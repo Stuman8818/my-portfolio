@@ -67,7 +67,7 @@ export function ProjectCaseStudy({
   nextProject,
 }: ProjectCaseStudyProps) {
   const contributionTitle =
-    project.status === "in-development" ? "Planned scope" : "My contribution";
+    project.status === "concept" ? "Planned scope" : "My contribution";
 
   return (
     <article className="case-study">
