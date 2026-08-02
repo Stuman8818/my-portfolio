@@ -77,15 +77,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
       data-accent={accent}
       data-development={project.status === "in-development"}
     >
-      <Link
-        href={`/projects/${project.slug}`}
-        className="project-card__visual-link"
-        aria-label={`View case study for ${project.title}`}
-      >
-        <div className="project-card__visual">
-          <ProjectVisual project={project} />
-        </div>
-      </Link>
+      <div className="project-card__visual">
+        <ProjectVisual project={project} />
+      </div>
 
       <div className="project-card__content">
         <div className="project-card__metadata">
@@ -139,12 +133,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
         ) : null}
 
         <div className="project-card__actions">
-          <Link
-            href={`/projects/${project.slug}`}
-            className="project-card__action"
-          >
+          <span className="project-card__action">
             View Case Study <span aria-hidden="true">→</span>
-          </Link>
+          </span>
           {project.liveDemoUrl && project.liveActionLabel ? (
             <a
               href={project.liveDemoUrl}
