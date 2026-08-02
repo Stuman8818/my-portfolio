@@ -1,11 +1,25 @@
-import PortfolioHeader from "./components/portfolio-header";
-import PortfolioContent from "./components/portfolio-content";
+import { SiteFooter } from "@/components/layout/site-footer";
+import { SiteHeader } from "@/components/layout/site-header";
+import { AboutPreviewSection } from "@/components/sections/about-preview-section";
+import { ContactCtaSection } from "@/components/sections/contact-cta-section";
+import { GrowthPhilosophySection } from "@/components/sections/growth-philosophy-section";
+import { IntroSection } from "@/components/sections/intro-section";
+import { ProjectsSection } from "@/components/sections/projects-section";
+import { SkillsSection } from "@/components/sections/skills-section";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="mx-auto min-h-screen max-w-screen-xl flex justify-between px-6 gap-1">
-      <PortfolioHeader />
-      <PortfolioContent />
-    </div>
+    <main className="min-h-screen bg-slate-950 text-slate-100">
+      <SiteHeader />
+      <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-10 lg:px-8">
+        <IntroSection />
+        <GrowthPhilosophySection />
+        <ProjectsSection />
+        <SkillsSection />
+        <AboutPreviewSection />
+        <ContactCtaSection />
+      </div>
+      <SiteFooter />
+    </main>
   );
 }

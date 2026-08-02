@@ -1,0 +1,21 @@
+Create or update the root AGENTS.md file with these project rules:
+
+- Use Next.js App Router
+- Use TypeScript for all application code
+- Use React functional components
+- Prefer Server Components unless client-side interactivity is required
+- Add "use client" only when necessary
+- Use Tailwind CSS for styling
+- Build reusable components instead of duplicating markup
+- Use semantic HTML
+- Follow accessibility best practices
+- Use next/image for portfolio screenshots
+- Use next/link for internal navigation
+- Do not use the any TypeScript type
+- Do not expose secrets or environment variables
+- Preserve existing project screenshots and valid external links unless explicitly told otherwise
+- Keep all project content in a centralized data file
+- Keep animations subtle and respect prefers-reduced-motion
+- Ensure the portfolio is responsive from 375px through large desktop screens
+- Run linting and a production build after major changes
+- Do not delete old assets until confirming they are no longer referenced

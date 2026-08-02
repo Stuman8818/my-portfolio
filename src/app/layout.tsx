@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Dave's Portfolio",
-  description: "Frontend Developer Portfolio",
+  title: "Dave Stewart | Full-Stack Software Engineer | Front-End Focus",
+  description: "Full-Stack Software Engineer with a front-end focus building workflow-driven web applications.",
 };
 
 export default function RootLayout({

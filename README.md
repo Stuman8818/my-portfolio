@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dave Stewart Portfolio
 
-## Getting Started
+A portfolio for Dave Stewart, a full-stack software engineer with a front-end focus. The site presents selected work across healthcare, manufacturing, productivity, and independent product development through concise project cards and detailed case studies.
 
-First, run the development server:
+## Technology
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Next.js 15 with the App Router
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- CSS-based responsive layouts and subtle motion
+- Next.js Image and Link components
+
+## Featured work
+
+The portfolio currently highlights four projects:
+
+- Collette Health Virtual Nursing Application
+- Manufacturing Applications at Rain Engineering
+- Daily Quest
+- Yard To Table
+
+Professional projects are presented at an approved public-facing level. Screenshots, proprietary data, and internal workflow details are omitted where confidentiality agreements apply.
+
+## Project structure
+
+```text
+src/
+├── app/                  # App Router pages, metadata, sitemap, and robots
+├── components/
+│   ├── layout/           # Shared navigation and footer
+│   ├── projects/         # Project cards and case-study presentation
+│   └── sections/         # Homepage sections
+├── data/                 # Centralized project, skill, and link content
+├── styles/               # Global theme and responsive styling
+└── types/                # Shared TypeScript models
+
+public/                   # Screenshots, résumé PDF, and other static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Project content is maintained in `src/data/projects.ts`. Skills, professional links, and the résumé path are maintained in `src/data/skills.ts`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Routes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/` — portfolio homepage
+- `/projects` — project overview
+- `/projects/[slug]` — statically generated project case studies
+- `/about` — professional background
+- `/contact` — résumé and professional links
 
-## Learn More
+## Local development
 
-To learn more about Next.js, take a look at the following resources:
+Install dependencies and start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm install
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open [http://localhost:3000](http://localhost:3000).
 
-## Deploy on Vercel
+## Validation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npx tsc --noEmit
+npm run lint
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The project does not currently define an automated test script.
+
+Do not run `npm run build` while the development server is writing to the same `.next` directory. Stop the development server first, or perform the production build in an isolated workspace.
+
+## Content guidelines
+
+- Keep project content centralized in the data files.
+- Preserve approved screenshots and valid external links.
+- Do not publish confidential screenshots, customer data, or proprietary implementation details.
+- Describe roadmap functionality as planned until it is implemented.
+- Keep the experience responsive and accessible from mobile through large desktop screens.
+
+## Deployment
+
+The site is designed for deployment on Vercel or another platform that supports Next.js App Router applications. Run a successful production build before deployment.
