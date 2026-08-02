@@ -3,6 +3,7 @@ import type { Project } from "@/types/portfolio";
 export const projects: Project[] = [
   {
     slug: "collette-health-virtual-nursing-application",
+    status: "active",
     title: "Collette Health Virtual Nursing Application",
     shortDescription:
       "A virtual nursing and patient-monitoring application used by healthcare teams.",
@@ -48,6 +49,7 @@ export const projects: Project[] = [
   },
   {
     slug: "manufacturing-applications-rain-engineering",
+    status: "active",
     title: "Manufacturing Applications at Rain Engineering",
     shortDescription:
       "Applications supporting manufacturing operations, production workflows, batch history, genealogy tracking, data entry, and plant-specific requirements.",
@@ -72,24 +74,14 @@ export const projects: Project[] = [
       "GraphQL",
     ],
     responsibilities: [
-      "Worked as one of three front-end React developers on the Electronic Bench Record, contributing to UX/UI implementation, quality-control workflows, batch visibility, and historical production data.",
+      "Collaborated as one of three front-end React developers on a global Electronic Batch Record application used across multiple Sherwin-Williams manufacturing plants to support paint-production quality control, batch tracking, production visibility, and historical data review.",
       "Served as lead developer on the Kellogg Mixing App, building workflows for ingredient quantities, source lots, production lines, and batch statuses.",
       "Created the React-based Mixing Sheet partner application and contributed the supporting database logic for its batch-genealogy view.",
       "Led and independently developed the Plant Activity Tracker, from its interface and activity workflows through its React and REST API integration.",
-      "Collaborated with UX/UI and product-management teams to translate Figma designs into working manufacturing interfaces.",
-      "Supported applications used across multiple plants, including multilingual requirements and on-site launch support in the Netherlands.",
     ],
     challenges: [
       "Supporting shared manufacturing workflows while accommodating different plant requirements.",
       "Turning approved designs into production interfaces.",
-    ],
-    solutions: [
-      "Built and refined React interfaces in coordination with client design and product-management teams.",
-      "Took major ownership of key production-history and data-entry workflows.",
-    ],
-    outcomes: [
-      "Helped take a manufacturing application from inception to live deployment in approximately seven months.",
-      "Supported the launch on site in the Netherlands.",
     ],
     highlights: [
       {
@@ -125,7 +117,7 @@ export const projects: Project[] = [
           title: "Mixing Sheet",
           description:
             "A partner application providing a quick view of batch genealogy, including ingredient quantities and the mixers used across manufacturing stages. The application supported the plant's move toward paperless workflows; I also contributed its supporting database logic.",
-          technologies: ["React"],
+          technologies: ["React", "T-SQL"],
         },
         // Screenshots are confidential and are intentionally omitted.
       },
@@ -146,10 +138,11 @@ export const projects: Project[] = [
     // TODO: Add screenshots or gallery images only after publication approval.
     // TODO: Add an exact public project link only if NDA-safe wording and access are confirmed.
     confidentialityNotice:
-      "This project is protected by confidentiality agreements. All visuals, data, and workflows shown here are generalized or recreated for portfolio purposes and do not represent the original application.",
+      "These projects are protected by confidentiality agreements. Screenshots, proprietary data, and internal workflow details are omitted; the information shared here is limited to a high-level overview of my role and contributions.",
   },
   {
     slug: "daily-quest-book",
+    status: "active",
     title: "Daily Quest",
     shortDescription:
       "A pixel-art application where users record Daily Habits and track their personal progress.",

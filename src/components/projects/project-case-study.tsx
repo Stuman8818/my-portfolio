@@ -1,4 +1,3 @@
-import { ManufacturingCaseStudyVisuals } from "@/components/projects/manufacturing-case-study-visuals";
 import { ProjectHighlights } from "@/components/projects/project-highlights";
 import type { Project, ProjectStatus } from "@/types/portfolio";
 import Image from "next/image";
@@ -69,8 +68,6 @@ export function ProjectCaseStudy({
 }: ProjectCaseStudyProps) {
   const contributionTitle =
     project.status === "in-development" ? "Planned scope" : "My contribution";
-  const isManufacturingProject =
-    project.slug === "manufacturing-applications-rain-engineering";
 
   return (
     <article className="case-study">
@@ -193,8 +190,6 @@ export function ProjectCaseStudy({
       ) : null}
 
       <ProjectHighlights highlights={project.highlights} />
-
-      {isManufacturingProject ? <ManufacturingCaseStudyVisuals /> : null}
 
       <DetailListSection title="Solutions" items={project.solutions} />
       <DetailListSection title="Outcomes" items={project.outcomes} />
