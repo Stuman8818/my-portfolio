@@ -5,7 +5,8 @@ export const projects: Project[] = [
     slug: "collette-health-virtual-nursing-application",
     status: "active",
     cardStatus: "Professional project",
-    cardImpact: "Built 15+ reusable Vue components.",
+    cardImpact:
+      "Built reusable Vue interfaces and resolved 32+ high-priority defects across critical workflows.",
     title: "Collette Health Virtual Nursing Application",
     shortDescription:
       "A virtual nursing and patient-monitoring application used by healthcare teams.",
@@ -53,7 +54,8 @@ export const projects: Project[] = [
     slug: "manufacturing-applications-rain-engineering",
     status: "active",
     cardStatus: "NDA-protected",
-    cardImpact: "Supported applications deployed across multiple manufacturing plants.",
+    cardImpact:
+      "Delivered measurable workflow improvements, including a 66% reduction in operator logging time.",
     title: "Manufacturing Applications at Rain Engineering",
     shortDescription:
       "Applications supporting manufacturing operations, production workflows, batch history, genealogy tracking, data entry, and plant-specific requirements.",

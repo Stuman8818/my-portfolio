@@ -15,7 +15,7 @@ const PortFolioHeader: FC = () => {
             Dave Stewart
           </h1>
           <h2 className="mt-3 text-lg font-medium text-indigo-300">
-            Front-End Engineer
+            Full-Stack Software Engineer | Front-End Focus
           </h2>
           <p className="mt-4 text-gray-400">
             Software Engineer with a front-end focus and back-end experience. I

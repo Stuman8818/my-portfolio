@@ -8,8 +8,8 @@ export default function ContactPage() {
       <div className="mx-auto max-w-3xl px-6 py-16">
         <h1 className="text-3xl font-semibold text-white">Contact</h1>
         <p className="mt-6 text-lg leading-8 text-slate-300">
-          I’m interested in frontend engineering roles focused on user
-          experience, product quality, and collaborative delivery.
+          Connect with me to discuss frontend engineering, full-stack product
+          development, or the systems behind my work.
         </p>
 
         <div className="mt-8 space-y-4 rounded-2xl border border-slate-800 bg-slate-900/70 p-8">

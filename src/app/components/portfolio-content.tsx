@@ -82,7 +82,7 @@ const PortFolioContent: FC = () => {
         </h2>
 
         <p className="text-gray-400 leading-relaxed mt-2">
-          Frontend-focused Software Engineer with 3 years of experience building
+          Full-stack Software Engineer with a front-end focus and over four years of experience building
           large-scale React and Vue applications. Original team member on the
           Electronic Bench Record (EBR) system, now deployed in 5
           Sherwin-Williams plants and used by 100+ operators. Built core

@@ -14,7 +14,8 @@ export function ContactCtaSection() {
       </h2>
       <p className="mt-4 max-w-2xl text-base leading-8 text-slate-300">
         I’m always interested in thoughtful conversations about frontend
-        engineering, product development, and building better web experiences.
+        engineering, full-stack product development, and building better software
+        systems.
       </p>
       <div className="mt-6 flex flex-wrap gap-3">
         <a
@@ -22,7 +23,7 @@ export function ContactCtaSection() {
           download="Software Engineer Resume Dave Stewart.pdf"
           className="rounded-full bg-indigo-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-indigo-400"
         >
-          View résumé
+          View Résumé
         </a>
         {socialLinks.map((link) => (
           <a

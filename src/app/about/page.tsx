@@ -8,10 +8,10 @@ export default function AboutPage() {
       <div className="mx-auto max-w-4xl px-6 py-16">
         <h1 className="text-3xl font-semibold text-white">About</h1>
         <p className="mt-6 text-lg leading-8 text-slate-300">
-          I am a frontend engineer focused on building responsive, maintainable
-          interfaces for modern web applications. My background spans React,
-          Next.js, TypeScript, Vue, and Angular, with practical experience in
-          manufacturing and healthcare software.
+          I am a full-stack software engineer with a front-end focus, building
+          responsive, maintainable applications with React, Next.js, TypeScript,
+          Vue, and Angular. My experience spans manufacturing, healthcare, and
+          independent product development.
         </p>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">

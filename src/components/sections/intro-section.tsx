@@ -84,13 +84,15 @@ export function IntroSection() {
   return (
     <section id="home" className="hero-section scroll-mt-28">
       <div className="hero-section__content">
-        <p className="hero-section__eyebrow">Front-End Software Engineer</p>
+        <p className="hero-section__eyebrow">
+          Full-Stack Software Engineer | Front-End Focus
+        </p>
         <h1 className="hero-section__headline">
           Designing digital systems that help people, processes, and ideas grow.
         </h1>
         <p className="hero-section__supporting">
-          I design and build workflow-driven web applications across healthcare,
-          manufacturing, productivity, and small-business operations.
+          I design and build workflow-driven web applications across
+          manufacturing, healthcare, productivity, and small-business operations.
         </p>
         <div className="hero-section__actions">
           <Link href="/#projects" className="hero-section__primary-action">

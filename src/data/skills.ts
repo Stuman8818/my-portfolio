@@ -16,25 +16,22 @@ export const skillGroups: SkillGroup[] = [
     title: "Backend and data",
     items: [
       "Node.js",
-      "Express.js",
       "GraphQL",
       "REST APIs",
       "Prisma",
       "SQL",
       "Neon Postgres",
-      "MongoDB",
     ],
   },
   {
     title: "Testing, delivery, and tooling",
     items: [
-      "Unit testing",
-      "Git",
-      "GitHub",
+      "Jest",
+      "Postman",
+      "Swagger/OpenAPI",
       "GitHub Actions",
       "CI/CD",
       "Vercel",
-      "Zod",
     ],
   },
 ];

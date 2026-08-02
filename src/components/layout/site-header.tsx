@@ -87,7 +87,8 @@ export function SiteHeader() {
         <Link href="/#home" onClick={closeMenu}>
           <span className="site-navigation__name">Dave Stewart</span>
           <span className="site-navigation__role">
-            Front-End Software Engineer
+            Full-Stack Engineer
+            <span>Front-End Focus</span>
           </span>
         </Link>
         <button

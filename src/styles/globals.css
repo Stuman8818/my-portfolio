@@ -240,6 +240,10 @@ header nav a:hover {
   white-space: nowrap;
 }
 
+.site-navigation__role > span {
+  display: block;
+}
+
 .site-navigation__menu-button {
   min-width: 3.75rem;
   min-height: 2.75rem;
@@ -422,7 +426,7 @@ header nav a:hover {
 
 .growth-diagram {
   position: relative;
-  width: min(100%, 29rem);
+  width: min(100%, 33rem);
   aspect-ratio: 1 / 1;
   justify-self: center;
   overflow: hidden;
@@ -1958,7 +1962,8 @@ div[class*="bg-slate-950"] {
   }
 
   .hero-section {
-    grid-template-columns: minmax(0, 1.2fr) minmax(20rem, 0.8fr);
+    grid-template-columns: minmax(0, 1.05fr) minmax(22rem, 0.95fr);
+    gap: clamp(2.5rem, 4vw, 3.5rem);
   }
 
   .growth-philosophy {
