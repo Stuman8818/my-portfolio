@@ -4,7 +4,7 @@ export function SkillsSection() {
   return (
     <section
       id="skills"
-      className="scroll-mt-28 rounded-2xl border border-slate-800 bg-slate-900/70 p-8 shadow-sm"
+      className="supporting-section scroll-mt-28"
     >
       <p className="text-sm font-semibold uppercase tracking-[0.3em] text-indigo-300">
         Technical skills
@@ -12,11 +12,11 @@ export function SkillsSection() {
       <h2 className="mt-2 text-2xl font-semibold text-white">
         Practical expertise across modern frontend stacks.
       </h2>
-      <div className="mt-6 grid gap-6 md:grid-cols-2">
+      <div className="mt-6 grid gap-4 lg:grid-cols-3">
         {skillGroups.map((group) => (
           <div
             key={group.title}
-            className="rounded-xl border border-slate-800 bg-slate-950/50 p-6"
+            className="supporting-section__group"
           >
             <h3 className="text-lg font-semibold text-white">{group.title}</h3>
             <ul className="mt-4 flex flex-wrap gap-2">

@@ -32,6 +32,9 @@ export interface Project {
   company?: string;
   projectType?: string;
   status?: ProjectStatus;
+  cardStatus?: string;
+  cardImpact?: string;
+  liveActionLabel?: string;
   dates?: string;
   featured?: boolean;
   displayOrder?: number;

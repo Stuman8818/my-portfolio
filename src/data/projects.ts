@@ -4,6 +4,8 @@ export const projects: Project[] = [
   {
     slug: "collette-health-virtual-nursing-application",
     status: "active",
+    cardStatus: "Professional project",
+    cardImpact: "Built 15+ reusable Vue components.",
     title: "Collette Health Virtual Nursing Application",
     shortDescription:
       "A virtual nursing and patient-monitoring application used by healthcare teams.",
@@ -50,6 +52,8 @@ export const projects: Project[] = [
   {
     slug: "manufacturing-applications-rain-engineering",
     status: "active",
+    cardStatus: "NDA-protected",
+    cardImpact: "Supported applications deployed across multiple manufacturing plants.",
     title: "Manufacturing Applications at Rain Engineering",
     shortDescription:
       "Applications supporting manufacturing operations, production workflows, batch history, genealogy tracking, data entry, and plant-specific requirements.",
@@ -143,6 +147,8 @@ export const projects: Project[] = [
   {
     slug: "daily-quest-book",
     status: "active",
+    cardStatus: "Live",
+    liveActionLabel: "Live Site",
     title: "Daily Quest",
     shortDescription:
       "A pixel-art application where users record Daily Habits and track their personal progress.",
@@ -196,6 +202,8 @@ export const projects: Project[] = [
     role: "Independent Full-Stack Developer & Product Designer",
     projectType: "Full-stack product / pre-launch business platform",
     status: "in-development",
+    cardStatus: "In development",
+    liveActionLabel: "Live Application",
     dates: "2026–Present",
     featured: true,
     displayOrder: 4,

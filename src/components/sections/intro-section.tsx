@@ -89,8 +89,8 @@ export function IntroSection() {
           Designing digital systems that help people, processes, and ideas grow.
         </h1>
         <p className="hero-section__supporting">
-          I build intuitive, workflow-driven applications across healthcare,
-          manufacturing, productivity, and everyday life.
+          I design and build workflow-driven web applications across healthcare,
+          manufacturing, productivity, and small-business operations.
         </p>
         <div className="hero-section__actions">
           <Link href="/#projects" className="hero-section__primary-action">

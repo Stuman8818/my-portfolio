@@ -2,17 +2,39 @@ import type { SkillGroup, SocialLink } from "@/types/portfolio";
 
 export const skillGroups: SkillGroup[] = [
   {
-    title: "Core front-end",
-    items: ["React", "Next.js", "TypeScript", "Vue", "Angular"],
+    title: "Frontend",
+    items: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Vue.js",
+      "Angular",
+      "Tailwind CSS",
+    ],
   },
   {
-    title: "Product and platform work",
+    title: "Backend and data",
     items: [
-      "Responsive UI",
-      "API integration",
-      "Component systems",
-      "Manufacturing software",
-      "Healthcare software",
+      "Node.js",
+      "Express.js",
+      "GraphQL",
+      "REST APIs",
+      "Prisma",
+      "SQL",
+      "Neon Postgres",
+      "MongoDB",
+    ],
+  },
+  {
+    title: "Testing, delivery, and tooling",
+    items: [
+      "Unit testing",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "CI/CD",
+      "Vercel",
+      "Zod",
     ],
   },
 ];
@@ -24,7 +46,7 @@ export const socialLinks: SocialLink[] = [
     title: "Visit Dave Stewart on LinkedIn",
   },
   {
-    label: "GitHub",
+    label: "PersonalGitHub",
     href: "https://github.com/Stuman8818",
     title: "Visit Dave Stewart on GitHub",
   },

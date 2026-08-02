@@ -4,17 +4,17 @@ export function ContactCtaSection() {
   return (
     <section
       id="contact"
-      className="scroll-mt-28 rounded-2xl border border-slate-800 bg-slate-900/70 p-8 shadow-sm"
+      className="supporting-section supporting-section--contact scroll-mt-28"
     >
       <p className="text-sm font-semibold uppercase tracking-[0.3em] text-indigo-300">
         Contact
       </p>
       <h2 className="mt-2 text-2xl font-semibold text-white">
-        Interested in frontend engineering work?
+        Let’s connect.
       </h2>
       <p className="mt-4 max-w-2xl text-base leading-8 text-slate-300">
-        I’m available for product-focused frontend work and collaborative
-        engineering teams building polished web experiences.
+        I’m always interested in thoughtful conversations about frontend
+        engineering, product development, and building better web experiences.
       </p>
       <div className="mt-6 flex flex-wrap gap-3">
         <a

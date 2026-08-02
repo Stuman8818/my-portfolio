@@ -6,7 +6,7 @@ export const experienceItems: ExperienceItem[] = [
     role: "Software Engineer",
     companyUrl: "https://www.linkedin.com/company/raineng/posts/?feedView=all",
     summary:
-      "Built and shipped a manufacturing application in a short delivery window while leading front-end implementation, workflow refinement, and responsive UI work.",
+      "Build frontend and full-stack manufacturing applications with React, translating product and UX direction into plant-floor workflows and supporting systems through live deployment.",
   },
   {
     company: "Collette Health",
@@ -14,6 +14,6 @@ export const experienceItems: ExperienceItem[] = [
     companyUrl:
       "https://www.linkedin.com/company/collettehealth/posts/?feedView=all",
     summary:
-      "Contributed to a healthcare-facing platform with a focus on reusable UI patterns, responsive layouts, and maintainable front-end implementation.",
+      "Contributed to a healthcare-facing Vue and Laravel application, delivering 15+ reusable frontend components, responsive redesign work, testing, defect resolution, and cross-functional product collaboration.",
   },
 ];
